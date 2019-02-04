@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "6a08e84db3a65b3ffa7f";
+/******/ 	var hotCurrentHash = "a2c07d136a427e21010b";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -793,6 +793,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/component.html":
+/*!****************************!*\
+  !*** ./src/component.html ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<h1>Hello world!</h1>\";\n\n//# sourceURL=webpack:///./src/component.html?");
+
+/***/ }),
+
 /***/ "./src/component.js":
 /*!**************************!*\
   !*** ./src/component.js ***!
@@ -801,7 +812,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Component\", function() { return Component; });\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module 'component.html'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\r\n\r\nclass Component {\r\n\r\n    constructor(){\r\n        this.element = document.createElement('div');\r\n        this.element.innerHTML = !(function webpackMissingModule() { var e = new Error(\"Cannot find module 'component.html'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\r\n    }\r\n}\n\n//# sourceURL=webpack:///./src/component.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Component\", function() { return Component; });\n/* harmony import */ var _component_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component.html */ \"./src/component.html\");\n/* harmony import */ var _component_html__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_component_html__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nclass Component {\r\n\r\n    constructor(){\r\n        this.element = document.createElement('div');\r\n        this.element.innerHTML = _component_html__WEBPACK_IMPORTED_MODULE_0___default.a;\r\n    }\r\n}\n\n//# sourceURL=webpack:///./src/component.js?");
 
 /***/ }),
 

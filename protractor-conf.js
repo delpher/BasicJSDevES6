@@ -1,7 +1,7 @@
 exports.config = {
     // location of the Selenium JAR file and chromedriver, use these if you installed protractor locally
     seleniumServerJar: 'node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.141.59.jar',
-    chromeDriver: 'node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_2.45.exe',
+    chromeDriver: 'node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_2.46.exe',
 
     specs: [
         'e2e/*.js'
